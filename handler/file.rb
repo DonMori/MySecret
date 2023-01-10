@@ -3,7 +3,7 @@ require_relative "constants"
 def get_file()
   print "file name: "
   file_name = gets.chomp
-  file_path = "#{NOTES_DIRECTORY}/#{file_name}"
+  file_path = "#{NOTES_DIRECTORY}/#{file_name}" # Substituir o txt por um arquivo que fala o formato do arquivo
   return file_path
 end
 
