@@ -43,7 +43,7 @@ puts "" # Creating space between lines
     return
   end
   if option == 0
-    print 'cls' # se eu deixar o clear ele quebra o windows õ-ô era um bagulho print `clear` isso n funciona noup
+    system("cls") 
     return
   end
 
